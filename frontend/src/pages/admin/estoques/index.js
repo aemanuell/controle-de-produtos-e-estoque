@@ -103,6 +103,7 @@ export default function EstoquesListagem() {
                                 <TableCell align="center">{row.qtd_estoque}</TableCell>
                                 <TableCell align="center">
                                   <ButtonGroup variant="outlined" aria-label="outlined button group">
+                                    <Button color='success' href={'/admin/produtos'}>Entrar</Button>
                                     <Button color='primary' href={'/admin/estoques/editar/'+row._id}>Atualizar</Button>
                                     <Button color='secondary' onClick={() => handleDelete(row._id)}>Excluir</Button>
                                   </ButtonGroup>
