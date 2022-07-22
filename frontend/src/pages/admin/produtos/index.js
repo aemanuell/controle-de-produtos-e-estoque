@@ -73,6 +73,9 @@ export default function ProdutosListagem() {
                     height: 240,
                   }}>
                   <h2>Listagem de Produtos</h2>
+                  <ButtonGroup variant="outlined" aria-label="outlined button group">
+                    <Button color='primary' href={'/admin/produtos/cadastrar/'}>Novo Produto</Button>
+                  </ButtonGroup>
                   <Grid container spacing={3}>
                     <Grid item xs={12} sm={12}>
                                       <TableContainer component={Paper}>
@@ -83,7 +86,7 @@ export default function ProdutosListagem() {
                               <TableCell align="center">Descrição</TableCell>
                               <TableCell align="center">Preço</TableCell>
                               <TableCell align="center">Quantidade</TableCell>
-                              <TableCell align="right">Opções</TableCell>
+                              <TableCell align="center">Opções</TableCell>
                             </TableRow>
                           </TableHead>
                           <TableBody>

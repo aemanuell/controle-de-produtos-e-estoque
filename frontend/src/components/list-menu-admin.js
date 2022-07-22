@@ -17,19 +17,19 @@ export const mainListItems = (
       </ListItemIcon>
       <ListItemText primary="Dashboard"/>
     </ListItemButton>
-    <ListItemButton component="a" href="/admin/usuarios/cadastrar">
+    <ListItemButton component="a" href="/admin/usuarios">
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
       <ListItemText primary="Usuarios"/>
     </ListItemButton>
-    <ListItemButton component="a" href="/admin/estoques/cadastrar">
+    <ListItemButton component="a" href="/admin/estoques">
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
       <ListItemText primary="Estoque"/>
     </ListItemButton>
-    <ListItemButton component="a" href="/admin/produtos/cadastrar">
+    <ListItemButton component="a" href="/admin/produtos">
       <ListItemIcon>
         <ShoppingCartIcon />
       </ListItemIcon>

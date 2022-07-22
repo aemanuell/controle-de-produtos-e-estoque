@@ -73,6 +73,9 @@ export default function EstoquesListagem() {
                     height: 240,
                   }}>
                   <h2>Listagem de Estoques</h2>
+                  <ButtonGroup variant="outlined" aria-label="outlined button group">
+                    <Button color='primary' href={'/admin/estoques/cadastrar/'}>Novo Estoque</Button>
+                  </ButtonGroup>
                   <Grid container spacing={3}>
                     <Grid item xs={12} sm={12}>
                                       <TableContainer component={Paper}>
@@ -83,7 +86,7 @@ export default function EstoquesListagem() {
                               <TableCell align="center">Descrição</TableCell>
                               <TableCell align="center">Numeração</TableCell>
                               <TableCell align="center">Quantidade</TableCell>
-                              <TableCell align="right">Opções</TableCell>
+                              <TableCell align="center">Opções</TableCell>
                             </TableRow>
                           </TableHead>
                           <TableBody>

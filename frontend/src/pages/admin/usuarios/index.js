@@ -75,6 +75,9 @@ export default function UsuariosListagem() {
                     height: 240,
                   }}>
                   <h2>Listagem de Usuários</h2>
+                  <ButtonGroup variant="outlined" aria-label="outlined button group">
+                    <Button color='primary' href={'/admin/usuarios/cadastrar/'}>Novo Usuário</Button>
+                  </ButtonGroup>
                   <Grid container spacing={3}>
                     <Grid item xs={12} sm={12}>
                                       <TableContainer component={Paper}>
