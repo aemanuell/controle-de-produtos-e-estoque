@@ -159,6 +159,7 @@ export default function UsuariosCadastrar() {
                         <InputLabel id="labelTipo">Tipo</InputLabel>
                         <Select
                           labelId="labelTipo"
+                          label="Tipo"
                           id="tipo"
                           value={tipo}
                           onChange={e => setTipo(e.target.value)}

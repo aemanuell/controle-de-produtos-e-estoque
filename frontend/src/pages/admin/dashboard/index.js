@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
+import ImgAdmin from '../../../assets/box.jpg'
 
 import MenuAdmin from '../../../components/menu-admin';
 
@@ -32,9 +33,9 @@ export default function UsuarioCadastrar() {
           }}
         >
           <Toolbar />
-          <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+          <Container maxWidth="lg" sx={{mb: 4, mt:4}}>
             <Grid container spacing={3}>
-              
+              <img src={ImgAdmin} style={{width: "70%", marginLeft:'14%'}}/>
             </Grid>
             <Footer sx={{ pt: 4 }} />
           </Container>
